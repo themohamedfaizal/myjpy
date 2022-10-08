@@ -7,4 +7,4 @@ services:
       JUPYTER_TYPE: lab
       JUPYTER_BASE_URL: /jupyter
     ports:
-      - "8881:8888"
+      - "8888:8888"
