@@ -1,8 +1,8 @@
 version: '3.5'
 services:
   jupyter-base:
-    image: testjpy
-    container_name: testjpy
+    image: registry.gitlab.com/jafer1/learn-python
+    container_name: learn-python
     environment:
       JUPYTER_TYPE: lab
       JUPYTER_BASE_URL: /jupyter
