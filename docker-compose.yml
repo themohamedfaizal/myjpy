@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  jupyter-base:
+    image: testjpy
+    container_name: testjpy
+    environment:
+      JUPYTER_TYPE: lab
+      JUPYTER_BASE_URL: /jupyter
+    ports:
+      - "8881:8888"
